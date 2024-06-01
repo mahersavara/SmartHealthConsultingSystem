@@ -1,0 +1,312 @@
+
+
+
+
+CREATE TABLE IF NOT EXISTS health_consulting_system.human_health_info (
+    title VARCHAR(255),
+    description LONGTEXT
+);
+
+
+
+INSERT INTO health_consulting_system.human_health_info (title, description)
+VALUES
+    (
+        'Normal Pressure',
+        'The average blood pressure for an adult person in Bangladesh is approximately:
+        - Systolic (Upper) Pressure: 120 mm Hg
+        - Diastolic (Lower) Pressure: 80 mm Hg
+        Note: Blood pressure can vary based on factors such as age, diet, physical activity, and stress levels.'
+    ),
+    (
+        'Blood Pressure',
+        'The normal range of blood pressure for adults in Bangladesh is typically:
+        - Systolic (Upper) Pressure: 120 mm Hg
+        - Diastolic (Lower) Pressure: 80 mm Hg
+        It is important to maintain blood pressure within this range to reduce the risk of cardiovascular diseases. Regular monitoring and a healthy lifestyle are key factors in managing blood pressure.'
+    ),
+    (
+        'Temperature',
+        'The average body temperature for an adult in Bangladesh is:
+        - 36.5°C to 37°C (97.7°F to 98.6°F)
+        Note: Normal body temperature can vary slightly from person to person. Factors such as the time of day and the method of measurement (oral, rectal, armpit) can also affect the reading. It is essential to consider these variations when measuring body temperature.'
+    ),
+    (
+        'Heart Rate',
+        'The average resting heart rate for an adult in Bangladesh is:
+        - 60 to 100 beats per minute (bpm)
+        Note: Athletes or individuals with higher fitness levels may have a lower resting heart rate. Regular physical activity can help maintain a healthy heart rate and overall cardiovascular health.'
+    );
+
+
+
+
+
+CREATE TABLE IF NOT EXISTS health_consulting_system.health_food_habit_info (
+    title VARCHAR(255),
+    description LONGTEXT
+);
+
+
+
+INSERT INTO health_consulting_system.health_food_habit_info (title, description)
+VALUES
+    (
+        'Staple Foods',
+        'The staple foods in Bangladesh include rice and fish. Rice is consumed in almost every meal and is often paired with lentils, vegetables, and fish. Fish is an integral part of the Bangladeshi diet, with hilsa being the national fish.'
+    ),
+    (
+        'Common Vegetables',
+        'Commonly consumed vegetables in Bangladesh include potatoes, eggplants, pumpkins, gourds, spinach, and various leafy greens. These vegetables are usually cooked into curries or fried.'
+    ),
+    (
+        'Spices and Flavorings',
+        'Bangladeshi cuisine is known for its use of a variety of spices such as turmeric, cumin, coriander, ginger, and garlic. These spices are used to enhance the flavor of the dishes.'
+    ),
+    (
+        'Fruits',
+        'Mangoes, jackfruits, bananas, pineapples, and lychees are some of the popular fruits in Bangladesh. Seasonal fruits are enjoyed fresh or made into juices and desserts.'
+    ),
+    (
+        'Beverages',
+        'Tea is the most popular beverage in Bangladesh, often served with milk and sugar. Lassi, a yogurt-based drink, and fruit juices are also commonly consumed.'
+    ),
+    (
+        'Traditional Sweets',
+        'Bangladesh has a rich tradition of sweets and desserts. Popular sweets include roshogolla, sandesh, mishti doi (sweet yogurt), and various types of pithas (rice cakes).'
+    ),
+    (
+        'Eating Habits',
+        'Typically, Bangladeshis have three main meals a day: breakfast, lunch, and dinner. Meals are often accompanied by various side dishes, chutneys, and salads. The use of hands for eating is common, and meals are generally family-oriented.'
+    );
+
+
+
+
+
+
+
+
+CREATE TABLE IF NOT EXISTS health_consulting_system.health_lifestyle_info (
+    title VARCHAR(255),
+    description LONGTEXT
+);
+
+
+
+INSERT INTO health_consulting_system.health_lifestyle_info (title, description)
+VALUES
+    (
+        'Required Sleep',
+        'Adults in Bangladesh, like elsewhere, are recommended to get 7-9 hours of sleep per night. Adequate sleep is crucial for maintaining overall health and well-being. Sleep patterns can be influenced by lifestyle, work schedules, and cultural practices.'
+    ),
+    (
+        'Exercise Habits',
+        'Regular physical activity is encouraged for maintaining health. Common forms of exercise in Bangladesh include walking, cycling, and outdoor sports like cricket and football. However, the level of physical activity can vary widely depending on urban or rural settings.'
+    ),
+    (
+        'Dietary Practices',
+        'The diet in Bangladesh is typically high in carbohydrates, with rice being a staple. Meals are often complemented with lentils, fish, and vegetables. There is also a significant consumption of spices and herbs, which are believed to have health benefits.'
+    ),
+    (
+        'Work-Life Balance',
+        'Work-life balance can vary widely among individuals in Bangladesh. In urban areas, the workday often follows a more structured schedule, while in rural areas, agricultural activities can lead to a more flexible daily routine. Balancing work and personal life is seen as important for mental and physical health.'
+    ),
+    (
+        'Social Activities',
+        'Family and community are central to life in Bangladesh. Social activities often include family gatherings, religious events, and festivals. These activities play a significant role in maintaining social well-being and cultural heritage.'
+    ),
+    (
+        'Mental Health Awareness',
+        'Awareness about mental health is growing in Bangladesh. While traditionally there has been a stigma associated with mental health issues, initiatives by the government and non-governmental organizations are working towards better education and resources for mental health support.'
+    ),
+    (
+        'Healthcare Access',
+        'Access to healthcare services varies between urban and rural areas. In cities, there are more hospitals and clinics available, while rural areas may rely on primary health centers. Efforts are being made to improve healthcare infrastructure and accessibility across the country.'
+    );
+
+
+
+
+
+
+CREATE TABLE IF NOT EXISTS health_consulting_system.expert_advice (
+    title VARCHAR(255),
+    description LONGTEXT
+);
+
+
+
+INSERT INTO health_consulting_system.expert_advice (title, description)
+VALUES
+    (
+        'Regular Health Check-ups',
+        'It is important to have regular health check-ups to monitor and maintain good health. Regular screenings can help detect potential health issues early, allowing for timely intervention and treatment.'
+    ),
+    (
+        'Balanced Diet',
+        'A balanced diet is essential for maintaining good health. This includes a variety of fruits, vegetables, lean proteins, and whole grains. Reducing the intake of processed foods, sugars, and saturated fats is also recommended.'
+    ),
+    (
+        'Stay Hydrated',
+        'Drinking enough water is crucial for overall health. It is recommended to drink at least 8 glasses of water a day to stay hydrated. Proper hydration helps maintain bodily functions and prevents dehydration.'
+    ),
+    (
+        'Exercise Regularly',
+        'Regular physical activity is important for maintaining physical fitness and overall health. It is recommended to engage in at least 30 minutes of moderate exercise, such as walking or cycling, most days of the week.'
+    ),
+    (
+        'Adequate Sleep',
+        'Getting enough sleep is vital for physical and mental health. Adults should aim for 7-9 hours of sleep per night. Good sleep hygiene, such as maintaining a regular sleep schedule and creating a restful environment, can help improve sleep quality.'
+    ),
+    (
+        'Mental Health Care',
+        'Taking care of mental health is as important as physical health. It is important to manage stress through activities such as meditation, yoga, and hobbies. Seeking professional help when needed is crucial for maintaining mental well-being.'
+    ),
+    (
+        'Avoid Smoking and Alcohol',
+        'Avoiding smoking and limiting alcohol consumption can significantly improve health. Both smoking and excessive alcohol intake are linked to various health issues, including respiratory problems, liver disease, and increased risk of cancer.'
+    ),
+    (
+        'Practice Good Hygiene',
+        'Good hygiene practices, such as regular hand washing, can prevent the spread of infections and illnesses. Maintaining personal hygiene is essential for overall health and well-being.'
+    );
+
+
+
+
+
+
+
+
+
+CREATE TABLE IF NOT EXISTS health_consulting_system.counciling_from_home_info (
+    title VARCHAR(255),
+    description LONGTEXT
+);
+
+
+
+INSERT INTO health_consulting_system.counciling_from_home_info  (title, description)
+VALUES
+    (
+        'Stress Management Techniques',
+        'Managing stress is essential for maintaining mental well-being. Techniques such as deep breathing exercises, mindfulness meditation, and progressive muscle relaxation can help reduce stress levels and promote relaxation.'
+    ),
+    (
+        'Effective Communication Skills',
+        'Effective communication is key to healthy relationships. Learning active listening skills, expressing thoughts and feelings openly, and resolving conflicts constructively can improve communication and strengthen relationships.'
+    ),
+    (
+        'Healthy Coping Strategies',
+        'Developing healthy coping strategies can help individuals deal with life\'s challenges effectively. Strategies such as problem-solving, seeking social support, and engaging in enjoyable activities can promote resilience and emotional well-being.'
+    ),
+    (
+        'Setting Boundaries',
+        'Setting boundaries is important for maintaining healthy relationships and personal well-being. It is essential to communicate and assert personal boundaries to protect oneself from undue stress and maintain a sense of autonomy.'
+    ),
+    (
+        'Self-Care Practices',
+        'Self-care practices are essential for nurturing physical, emotional, and mental well-being. Engaging in activities such as exercise, hobbies, spending time in nature, and practicing relaxation techniques can promote self-care and prevent burnout.'
+    ),
+    (
+        'Seeking Professional Help',
+        'Seeking professional help is important for addressing mental health concerns. If experiencing persistent symptoms of depression, anxiety, or other mental health issues, it is advisable to consult a qualified mental health professional for assessment and treatment.'
+    ),
+    (
+        'Building Support Networks',
+        'Building supportive relationships is vital for emotional well-being. Connecting with family, friends, and support groups can provide social support, encouragement, and a sense of belonging, which are essential for coping with life\'s challenges.'
+    ),
+    (
+        'Practicing Gratitude',
+        'Practicing gratitude can improve mental health and overall well-being. Taking time to acknowledge and appreciate the positive aspects of life, such as relationships, experiences, and accomplishments, can foster a sense of happiness and fulfillment.'
+    );
+
+
+
+
+
+
+
+
+CREATE TABLE IF NOT EXISTS health_consulting_system.disease_medicine_info (
+    title VARCHAR(255),
+    description LONGTEXT
+);
+
+INSERT INTO health_consulting_system.disease_medicine_info (title, description)
+VALUES
+    (
+        'Common Cold',
+        'Common colds are prevalent in Bangladesh, especially during seasonal changes. Typical symptoms include a runny or stuffy nose, sore throat, cough, and mild fever. Over-the-counter medications such as paracetamol, decongestants, and antihistamines are commonly used for symptomatic relief.'
+    ),
+    (
+        'Diarrhea',
+        'Diarrheal diseases are widespread in Bangladesh, often due to poor sanitation and contaminated water sources. Symptoms include frequent loose or watery stools, abdominal cramps, and dehydration. Treatment typically involves oral rehydration solution (ORS) to replenish lost fluids and electrolytes.'
+    ),
+    (
+        'Typhoid Fever',
+        'Typhoid fever is endemic in Bangladesh, transmitted through contaminated food and water. Symptoms include sustained fever, headache, abdominal pain, and weakness. Antibiotics such as ciprofloxacin or azithromycin are commonly prescribed for treatment, along with supportive care.'
+    ),
+    (
+        'Dengue Fever',
+        'Dengue fever outbreaks occur in Bangladesh, especially during the monsoon season. Symptoms include high fever, severe headache, joint and muscle pain, and rash. Treatment focuses on supportive care, such as rest, hydration, and pain relief medications like paracetamol.'
+    ),
+    (
+        'Cholera',
+        'Cholera outbreaks occur periodically in Bangladesh, often due to contaminated water sources. Symptoms include profuse watery diarrhea, vomiting, and dehydration. Treatment involves prompt rehydration with ORS and, in severe cases, antibiotics such as doxycycline or azithromycin.'
+    ),
+    (
+        'Malaria',
+        'Malaria is endemic in certain regions of Bangladesh, particularly in rural areas. Symptoms include fever, chills, headache, and muscle aches. Antimalarial medications such as chloroquine, artemisinin-based combination therapies (ACTs), or primaquine are used for treatment.'
+    ),
+    (
+        'Hepatitis A',
+        'Hepatitis A is prevalent in Bangladesh, primarily spread through contaminated food and water. Symptoms include fever, fatigue, abdominal pain, nausea, and jaundice. There is no specific treatment for hepatitis A, but supportive care and rest are recommended.'
+    ),
+    (
+        'Tuberculosis (TB)',
+        'Tuberculosis remains a significant health concern in Bangladesh, with high rates of TB infection. Symptoms include cough, chest pain, weight loss, and fatigue. Treatment typically involves a combination of antibiotics, such as isoniazid, rifampicin, pyrazinamide, and ethambutol, for several months.'
+    );
+
+
+
+CREATE TABLE IF NOT EXISTS health_consulting_system.ambulance_service_info (
+    title VARCHAR(255),
+    description LONGTEXT
+);
+
+INSERT INTO health_consulting_system.ambulance_service_info (title, description)
+VALUES
+    (
+        'Dhaka Ambulance Service',
+        'Location: Dhaka city center, providing emergency medical transport services within the Dhaka metropolitan area.'
+    ),
+    (
+        'Chittagong Emergency Ambulance',
+        'Location: Chittagong city, offering emergency ambulance services across the Chittagong division.'
+    ),
+    (
+        'Rajshahi Ambulance Assistance',
+        'Location: Rajshahi city, providing emergency medical transport services in the Rajshahi division.'
+    ),
+    (
+        'Khulna Ambulance Response Team',
+        'Location: Khulna city, offering ambulance services for medical emergencies in the Khulna division.'
+    ),
+    (
+        'Sylhet Medical Emergency Response',
+        'Location: Sylhet city, providing rapid medical response and ambulance services in the Sylhet division.'
+    ),
+    (
+        'Barisal Emergency Ambulance Service',
+        'Location: Barisal city, offering emergency medical transport services in the Barisal division.'
+    ),
+    (
+        'Rangpur Ambulance Network',
+        'Location: Rangpur city, providing ambulance assistance and medical transport services in the Rangpur division.'
+    ),
+    (
+        'Mymensingh Ambulance Care',
+        'Location: Mymensingh city, offering emergency medical response and ambulance services in the Mymensingh division.'
+    );
