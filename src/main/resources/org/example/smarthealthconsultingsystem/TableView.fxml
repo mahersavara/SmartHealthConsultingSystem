@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.smarthealthconsultingsystem.TableViewController">
+    <spacing>10</spacing>
+    <Button text="Back" onAction="#goBack"/>
+    <TableView fx:id="tableView">
+        <columns>
+            <TableColumn fx:id="titleColumn" text="Title" minWidth="200"/>
+            <TableColumn fx:id="descriptionColumn" text="Description" minWidth="600"/>
+        </columns>
+    </TableView>
+</VBox>
